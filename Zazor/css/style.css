@@ -1,0 +1,849 @@
+.wrapper{
+	width: 914px;
+	margin: 0 auto;
+	padding-right: 4px;
+	overflow: hidden;
+	padding-top: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*
+		CONTACTS AND AVTORIZE 
+*/
+.contacts-avtorize{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10px;
+
+}
+
+.contacts-avtorize .telephone{
+	background: #fff url("../images/telephone.png") 9px 5px no-repeat;
+	float: left;
+	padding-left: 34px;
+	padding-top: 5px;
+	font-size: 18px;
+	line-height: 22px;
+	color: #5e696d;
+	letter-spacing: 0.4px;
+}
+
+.contacts-avtorize .avtorize{
+	background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	box-shadow: 1.5px 2.6px 3px 0px rgb( 150, 150, 150 );
+	border-radius: 3px;
+	overflow: hidden;
+	float: left;
+	padding-left: 8px;
+	width: 488px;
+	height: 27px;
+	margin-left: 16px;
+	margin-top: 1px;
+}
+
+.contacts-avtorize .avtorize img{
+	margin-top: 5px;
+	float: left;
+	margin-right: 2px;
+}
+
+.contacts-avtorize .avtorize input[type="text"],
+.contacts-avtorize .avtorize input[type="password"]{
+	border: 1px solid rgb( 155, 161, 163);
+	border-radius: 2px;
+	float: left;
+	padding: 0 0 0 3px;
+	margin: 6px 5px 0 2px;
+	width: 109px;
+	height: 14px;
+	font-size: 11px;
+	box-shadow: 0 0 1px 1px #9ba1a3;
+}
+
+.contacts-avtorize .avtorize input[type="submit"]{
+	float: left;
+	border: none;
+	border-right: 1px solid #fff;
+	background: none;
+	font-size: 11px;
+	color: #fff;
+	line-height: 12px;
+	padding: 0px 5px 0px 0px;
+	cursor: pointer;
+	margin: 7px 0px 8px 3px;
+}
+
+.contacts-avtorize .avtorize .registration{
+	float: left;
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+	margin: 7px 7px 7px 6px;
+	line-height: 12px;
+}
+
+.contacts-avtorize .avtorize .registration:hover{
+	color:#52abcb;
+}
+
+.contacts-avtorize .avtorize .forgot-password{
+	float: right;
+	font-size: 11px;
+	color: #bfbfbf;
+	text-decoration: none;
+	margin: 5px 9px 7px 8px;
+	border-bottom: 1px solid #bfbfbf;
+	line-height: 15px;
+	letter-spacing: 0.9px;
+}
+
+.contacts-avtorize .avtorize .forgot-password:hover{
+	color:#52abcb;
+}
+
+.contacts-avtorize .navigation{
+	float: right;
+	height: 19px;
+	width: 75px;
+	border: 1px solid #c1c8cb;
+	border-radius: 10px;
+	margin-top: 2px;
+	margin-right: 10px;
+	box-shadow: 1.5px 2.6px 3px 0px rgb( 150, 150, 150 );
+}
+
+.contacts-avtorize .navigation a{
+	display: block;
+	float: left;
+	line-height: 14px;
+	margin: 1px -2px 1px 6px;
+	padding: 0 2px 3px 2px;
+}
+
+.contacts-avtorize .navigation a:hover{
+	margin: 0px -3px 2px 7px;
+}
+/*
+		END CONTACTS AND AVTORIZE 
+*/
+/*
+		HEADER
+*/
+.header{
+	width: 100%;
+	height: 237px;
+	background: #fff url("../images/header_bg.jpg") 0 0 no-repeat;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+
+.header .logo{
+	display: block;
+	position: absolute;
+	width: 264px;
+	height: 117px;
+	top: 51px;
+	left: 1px;
+
+}
+/*
+		END HEADER
+*/
+/*
+		TOP MENU
+*/
+.top-menu{
+	border: 1px solid rgb( 13, 22, 66 );
+	border-radius: 4px;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	width: 908px;
+	height: 32px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	box-shadow: 1.5px 2.6px 5px 0px rgb( 0, 0, 0 );
+}
+
+.top-menu .menu{
+	margin-left: 133px;
+	height: 32px;
+	float: left;
+}
+
+.top-menu .menu:after{
+	content:"";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.top-menu .menu li{
+	float: left;
+	padding: 4px 20px 4px 22px;
+	border-radius: 13px;
+	margin: 3px -4px 0 -7px;	
+}
+
+.top-menu .menu li a{	
+	text-decoration: none;
+	font-size: 14px;
+	color: #b1bcc0;
+	text-transform: uppercase;
+}
+
+.top-menu .menu li:hover{
+	background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	color: #fff;
+}
+
+.basket{
+	float: right;
+	height: 20px;
+	padding: 7px 0 5px;
+	margin-right: 14px;
+	overflow: hidden;
+	width: 250px;
+}
+
+.basket a{
+	float: right;
+	margin-right: 5px;
+}
+
+.basket a:hover{
+	margin-top: -2px;
+}
+
+.basket p{
+	float: right;	
+	color: #929b9f;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.basket p .number{
+	padding-right: 12px;
+	color: #0d5a8f;
+	font-size: 12px;
+}
+
+.basket p .price{
+	padding-left: 9px;
+	color: #0d5a8f;
+	font-size: 12px;
+}
+/*
+		END TOP MENU
+*/
+/*
+		FIND
+*/
+.find{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+.find .search-by-auto,
+.find .search-tires,
+.find .search-disc{
+	background-color: #fff;
+	border: 1px solid rgb( 156, 156, 157 );	
+	border-radius: 15px;
+	box-shadow: 2.5px 4.33px 5px 0px rgb( 150, 150, 150 );
+	float: left;
+	overflow: hidden;
+	height: 132px;
+	margin: 0 8px 0 6px;
+	position: relative;
+	font-weight: bolder;
+}
+
+
+.find .search-by-auto .title,
+.find .search-tires .title,
+.find .search-disc .title{
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	letter-spacing: 0.5px;
+	margin-top: 1px;
+	color: #154467;
+}
+
+.find .search-by-auto input[type="submit"],
+.find .search-tires input[type="submit"],
+.find .search-disc input[type="submit"]{
+	background: none;
+	border: none;
+	border-bottom: 2px solid #a6b1bc;
+	float: right;
+	padding: 0;
+	position: absolute;
+	bottom: 5px;
+	right: 16px;
+	font-size: 14px;
+	font-style: italic;
+	color: #154467;
+	cursor: pointer;
+}
+/*
+		SEARCH BY AUTO 
+*/
+.find .search-by-auto{	
+  width: 412px;
+}
+
+		.find .search-by-auto .filter-auto-disc,
+		.find .search-by-auto .filter-auto-tires{
+			width: 180px;
+			margin: -11px 8px 0 17px;
+			overflow: hidden;
+			float: left;
+		}
+		
+		.find .search-by-auto .filter-auto-disc .title,
+		.find .search-by-auto .filter-auto-tires .title{
+			font-size: 10px;
+			margin-bottom: 7px; 
+		}
+
+		.find .search-by-auto .filter-auto-disc .title{
+			text-align: left; 
+			padding-left: 4px;
+		}
+
+		.find .search-by-auto .filter-auto-tires .title{
+			text-align: right;
+			padding-right: 10px;
+		}
+
+		.find .search-by-auto .filter-auto-disc label,
+		.find .search-by-auto .filter-auto-tires label{
+			float: left;
+			display: inline-block;
+			height: 22px;
+			text-align: center;
+			width: 100%;
+			overflow: hidden;
+			text-align: left;
+			vertical-align: bottom;
+			position: relative;
+		}
+
+		.find .search-by-auto .filter-auto-disc label>span,
+		.find .search-by-auto .filter-auto-tires label>span{
+			position: absolute;
+			bottom: 5px;
+			left: 0;
+			width: 76px;
+			font-size: 9px;
+		}
+
+		.find  label .grey,
+		.find  label .grey{
+			color: #77858b;
+		}
+
+		.find .search-by-auto .filter-auto-disc select,
+		.find .search-by-auto .filter-auto-tires select{
+			float: left;
+			box-shadow: inset 2px 2px 2px 0.5px rgba( 50, 50, 50, 0.75);
+			border: 1px solid #ccc;
+			margin: 0 0 0 75px;
+		}
+		.find .search-by-auto .filter-auto-disc select#auto-brand1,
+		.find .search-by-auto .filter-auto-disc select#auto-model1,
+		.find .search-by-auto .filter-auto-disc select#auto-complectation1,
+		.find .search-by-auto .filter-auto-tires select#auto-brand2,
+		.find .search-by-auto .filter-auto-tires select#auto-model2,
+		.find .search-by-auto .filter-auto-tires select#auto-complectation2{
+			width: 100px;
+		}		
+/*
+			END SEARCH BY AUTO 
+*/
+/*
+			SEARCH BY TIRES
+*/
+.find .search-tires{
+  width: 175px;
+  padding-left: 14px;
+}
+
+		.find .search-tires .title{
+			text-align: left;
+			margin: 2px 0  6px;
+		}
+
+		.find .search-tires label{
+			display: inline-block;
+			height: 22px;
+			overflow: hidden;
+			vertical-align: bottom;
+			position: relative;
+		}
+
+		.find .search-tires>label>span{
+			display: block;
+			float: left;
+			font-size: 9px;
+			width: 45px;
+			text-align: left;
+			bottom: 5px;
+			left: 0;
+			position: absolute;
+		}
+
+		.find .search-tires select{	
+			box-shadow: inset 2px 2px 2px 0.5px rgba( 50, 50, 50, 0.75);
+			border: 1px solid #ccc;
+		}
+
+		.find .search-tires select#tires-size-width,
+		.find .search-tires select#tires-size-radius{
+			width: 50px;
+			margin-left: 45px;
+		}
+
+		.find .search-tires label[for="tires-size-thickness"]{
+			padding-left: 10px;
+			margin-left: 4px;
+		}
+
+		.find .search-tires label[for="tires-size-thickness"]>span{
+			font-size: 17px;
+			line-height: 10px;
+		}
+
+		.find .search-tires label[for="tires-size-radius"]>span{
+			text-align: right;
+			padding-right: 5px;	
+			width: 40px;
+		}
+		.find .search-tires .season{
+			position: relative;
+			overflow: hidden;
+			padding-top: 3px;
+		}
+
+		.find .search-tires .season>span{
+			font-size: 9px;
+			float: left;
+			position: absolute;
+			top: 5px;
+			left: 0px;
+		}
+
+		.find .search-tires .season label{
+			float: left;
+			width: 100%;
+			margin-left: 40px;
+			overflow: hidden;
+			position: relative;
+			height: 14px;
+		}
+
+		.find .search-tires .season label span{
+			position: absolute;
+			top: 2px;
+			left: 18px;
+			font-size: 10px;
+		}
+
+		.find .search-tires .season label input{
+			float: left;
+			background: none;
+			margin: 2px 3px 0px 4px;
+		}
+/*
+			END SEARCH BY TIRES
+*/
+/*
+			SEARCH BY DISK
+*/
+.find .search-disc{
+	width: 251px;
+	padding-left: 14px;
+	overflow: hidden;
+}
+
+		.find .search-disc .title{
+			text-align: left; 
+			margin: 2px 0  6px;
+		}
+
+		.find .search-disc .left{
+			width: 160px;
+			overflow: hidden;
+			float: left;
+			padding-top: 6px;
+			margin-top: -18px;
+			border-right: 1px solid #bdc6ca;
+		}
+
+		.find .search-disc .left label{
+			float: left;
+			width: 100%;
+			overflow: hidden;
+			text-align: left;
+			position: relative;
+			padding-top: 10px;
+			margin-bottom: 3px;
+		}
+
+		.find .search-disc .left label:last-child{
+			padding-bottom: 10px;
+		}
+
+		.find .search-disc .left label>span{
+			float: left;
+			width: 76px;
+			max-height: 40px;
+			overflow: hidden;
+			font-size: 9px;
+			position: absolute;
+			bottom: 2px;
+			left: 0;
+		}
+		
+		.find .search-disc .left label>select{
+			box-shadow: inset 2px 2px 2px 0.5px rgba( 50, 50, 50, 0.75);
+			border: 1px solid #ccc;
+			float: right;
+			height: 17px;
+			width: 57px;
+			margin: 0 15px 0 0;
+		}
+
+		.find .search-disc .right{
+			width: 70px;
+			float: right;
+			overflow: hidden;
+			height: 105px;
+			margin-right: 12px;
+			margin-top: -17px;
+		}
+
+		.find .search-disc .right label{
+			overflow: hidden;
+		}
+
+		.find .search-disc .right label>span{
+			overflow: hidden;
+			font-size: 9px;
+			display: inline-block;
+		}
+
+		.find .search-disc .right label>select{
+			box-shadow: inset 2px 2px 2px 0.5px rgba( 50, 50, 50, 0.75);
+			border: 1px solid #ccc;
+			height: 17px;
+			width: 58px;
+			margin-bottom: 7px;
+		}
+
+/*
+			END SEARCH BY DISK
+*/
+/*
+		END FIND
+*/
+/*
+			CATALOG
+*/
+.catalog{
+	width: 910px;
+	margin-right: 4px;
+	overflow: hidden;
+}
+
+.catalog:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.catalog-menu{
+	width: 180px;
+	padding-right: 10px;
+	float: left;
+}
+
+.catalog-menu>ul{
+	padding-left: 2px;
+}
+
+.menu-title,
+.menu-subtitle{
+	height: 25px;
+	padding-left: 26px;
+	line-height: 25px;
+	border: 1px solid #8c969a;
+	border-radius: 12px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #114165;
+}
+
+.menu-title{
+	margin-bottom: 13px;
+	box-shadow: 2px 3px 3px rgba(0,0,0,0.3), inset 0 0 1px #d2d7d9;
+	background: url("../images/catalog_icon.png") 2px 2px no-repeat;
+}
+
+.menu-subtitle{
+	width: 120px;
+	background: url("../images/catalog_sub_icon.png") 1px 1px no-repeat;
+}
+
+.catalog-menu>ul>li>ul{
+	list-style: circle inside;
+}
+
+.catalog-menu>ul>li>ul li{
+	padding-left: 30px;
+	line-height: 24px;
+	font-size: 13px;
+}
+
+.catalog-menu>ul>li>ul li a{
+	color: #465961;
+	text-decoration: none;
+}
+
+.catalog-menu>ul>li>ul li a:hover{
+	font-style: italic;
+	color: #0c3256;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.brands{
+	float: right;
+	width: 183px;
+	padding: 0 3px 0 9px;
+}
+
+.brands form{
+	padding-left: 16px;
+}
+
+.brands form ul li{
+	line-height: 26px;
+	padding-left: 10px;
+	font-size: 13px;
+	color: #465961;
+}
+
+.brands form input[type="submit"]{
+	display: block;
+	width: 80px;
+	border:1px solid #697b8b;
+	border-radius: 13px;
+	background: #13486b;
+    background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+    background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #e5e9ea;
+
+	margin: 13px 0 0 8px;
+	height: 26px;
+}
+
+.brands form input[type="submit"]:hover{
+	cursor:pointer;
+	margin: 12px 0 0 7px;
+}
+
+.ware{
+	width: 500px;
+	margin: 0 195px 0 190px;
+	padding: 15px 0 0 22px;
+	overflow: hidden;
+	border: 1px solid #656976;
+	border-radius: 6px;
+	background-image: -moz-linear-gradient( 90deg, rgb(147,167,176) 0%, rgb(201,207,209) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(147,167,176) 0%, rgb(201,207,209) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(147,167,176) 0%, rgb(201,207,209) 100%);
+}
+
+.ware .tovar{
+	display: block;
+	overflow: hidden;
+	margin: 0 26px 25px 0;
+	text-decoration: none;
+	float: left;
+	width: 140px;
+}
+
+.ware .tovar:hover{
+	margin: -2px 28px 27px -2px;
+}
+
+.ware .tovar .brand,
+.ware .tovar .nameless,
+.ware .tovar img,
+.ware .tovar .price{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.ware .tovar .brand{
+	color:#206988;
+	line-height: 14px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ware .tovar .nameless{
+	line-height: 13px;
+	font-size: 13px;
+	color: #1f2528;
+}
+
+.ware .tovar img{
+	border: 1px solid #a7b1b4;
+	border-radius: 8px;
+	margin-bottom: 5px;
+}
+
+.ware .tovar .price{
+	color: #114165;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+}
+/*
+			END CATALOG
+*/
+/*
+			BRANDS LOGOTYPE
+*/
+.brands-logo{
+	margin: 0 auto;
+}
+
+.brands-logo ul{
+	height: 27px;
+	padding: 36px 0 27px 0;
+	text-align: center;
+}
+
+.brands-logo ul li{
+	display: inline-block;
+	margin: 0 5px 0 5px;
+}
+
+.brands-logo ul li a{
+	display: block;
+	text-decoration: none;
+	height: 27px;
+	background-image: url("../images/brands_logo.png");
+	background-repeat: no-repeat;
+}
+
+.brands-logo ul li:hover{
+	opacity: 0.5;
+}
+
+.brands-logo ul li #toyo{
+	width: 83px;
+	background-position: 0px 0px;	
+}
+
+.brands-logo ul li #bridgestone{
+	width: 97px;
+	background-position: -96px 0px;	
+}
+
+.brands-logo ul li #continental{
+	width: 78px;
+	background-position: -205px 0px;	
+}
+
+.brands-logo ul li #cooper{
+	width: 61px;
+	background-position: -297px 0px;	
+}
+
+.brands-logo ul li #avon{
+	width: 77px;
+	background-position: -368px 0px;	
+}
+
+.brands-logo ul li #roemer{
+	width: 58px;
+	background-position: -458px 0px;	
+}
+
+.brands-logo ul li #pirelli{
+	width: 62px;
+	background-position: -527px 0px;	
+}
+
+
+.brands-logo ul li #dunlop{
+	width: 73px;
+	background-position: -603px 0px;	
+}
+/*
+			END BRANDS LOGOTYPE
+*/
+/*
+			FOOTER
+*/
+.footer{
+	padding-top: 12px;
+	padding-bottom: 50px;
+	background: #213a4d;
+	border:1px solid #242c3e;
+}
+
+.footer .bottom-menu{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.footer .bottom-menu li{
+	display: inline-block;
+	padding: 0 12px 0 12px;
+	border-right: 1px solid #bec6c9;
+}
+
+.footer .bottom-menu li:last-child{
+	border: none;
+}
+
+.footer .bottom-menu li a{
+	font-size: 12px;
+	color: #bec6c9;
+	text-decoration: none;
+}
+
+.footer .bottom-menu li a:hover{
+	color:#52abcb;
+}
+
+.footer .copyrights{
+	text-align: center;
+	font-size: 10px;
+	color: #7f4740;
+}
+/*
+			END FOOTER
+*/
